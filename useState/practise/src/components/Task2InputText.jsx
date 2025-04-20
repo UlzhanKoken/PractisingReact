@@ -4,9 +4,9 @@ function TextInput() {
   const [text, setText] = useState("")
   return (
     <>
-        <h1>Task 2 Text Input </h1>
-       <input type="text" onChange={(e) => setText(e.target.value)}/>
-       <p>{text}</p>
+      <h1>Task 2 Input</h1>
+       <input type="text" onChange={(e)=>setText(e.target.value)} value={text}/>
+      <p>{text}</p>
     </>
   )
 }

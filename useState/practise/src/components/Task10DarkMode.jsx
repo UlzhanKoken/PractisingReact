@@ -8,6 +8,7 @@ function DarkMode() {
     setTheme(newTheme)
     document.body.style.backgroundColor = newTheme === true ? "black" : "white"
     document.body.style.color = newTheme === true ? "white" : "black"
+   
   }
   return (
     <>

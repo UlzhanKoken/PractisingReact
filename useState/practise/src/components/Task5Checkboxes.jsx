@@ -3,6 +3,8 @@ import { useState } from 'react'
 function Checkboxes() {
   const [checkedItems, setCheckedItems] = useState([]);
   const checkboxes = ["React", "Vue", "Angular", "Svelte"];
+
+
   const handleCheckboxChange = (event) =>{
     setCheckedItems((prev)=>
         event.target.checked ? 
